@@ -1,0 +1,36 @@
+Algorithm for library management system
+
+
+student/user module:
+
+step1-start
+step2-When the user enters into the library user wants to enter their details in the gate register
+step3-user must bring his library card for accessing the library things.
+step4-And user has to mention his login time and signature in the gate register.
+step5-Then he search for the book which one he want to take.
+step6-In the library, books are seperated category wise and placed in seperate racks.
+step7-It is easy for searching a book which the user requires.
+step8-Once the user got the book he reaches the librarian counter for entering the details of book and borrower.
+step9-After this process only the librarian can handover the book to the user.
+step10-If the user takes more than 3 books previously from the library then librarian can not give the book until these books are returned.
+step11-After returning the previously taken books only the librarian can give the new books to the user. 
+step12-After some days the user returns the books in the library.
+step13-Before that user wants to clear the borrowing book details in the register by librarian.
+step14-Then the user will return the book.
+step15-stop.
+
+
+librarian module:
+
+step1-start
+step2-librarian maintains all data about books which are in the library.
+step3-when the user comes to the library for borrowing any book librarian will help the user to get that book.
+step4-librarian also has the information about upcoming books to the library.
+step5-And librarian maintains the register for users and books i.e., which books are borrowed by the user.
+step6-when the user came to the library for borrowing any book firstly the librarian has to check whether the previously taken books by this user are returned or not.
+step7-If the user did not return the books librarian can not give books to him until the previously taken books are returned.
+step8-when the user return the books to the librarian then user is allowed to take new books.
+step9-After entering details into the register only the librarian can hand over the books to user. 
+step10-when the user returns the book to the librarian he need to clear the borrowing book details from the register.
+step11-Then the librarian can take over the book.
+step12-stop

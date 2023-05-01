@@ -1,0 +1,9 @@
+Step1:Start
+Step2:Declare the variables as Basic pay,HRA,DA,Gross Salary
+Step3:Read basic pay 
+Step4:Check the Condition if basic pay lessthan or equal to 10000(Basic Salary <= 10000)then HRA=(Basic Salary*(20/100)) and DA=(Basic Salary*(80/100))then go to step7
+Step5:ifelse  the basic pay lessthan or equal to 20000(Basic Salary <= 20000)then HRA=(Basic Salary*(25/100)) and DA=(Basic Salary*(90/100))then go to Step7
+Step6:otherwise if the basic pay is greaterthan  20000(Basic Salary > 20000 )then HRA=(Basic Salary*(30/100)) and DA=(Basic Salary*(95/100))then go to Step7
+Step7:Based on the above conditions Calculate Gross Salary=Basic Salary+HRA+DA
+Step8:Print Gross Salary
+Step9:Stop
